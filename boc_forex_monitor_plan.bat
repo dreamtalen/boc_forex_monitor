@@ -1,0 +1,1 @@
+C:\Python27\python.exe C:\boc_forex_monitor\main.py
