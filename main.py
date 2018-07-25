@@ -41,7 +41,7 @@ def send_email(US_sold_price):
     receivers = ['771067560@qq.com']
 
 
-    message = MIMEText(US_sold_price, 'plain', 'utf-8')
+    message = MIMEText(str(US_sold_price), 'plain', 'utf-8')
     #this on also must be the sender's address
     message['From'] = "python_dmtalen@sina.com"
     message['To'] =  "771067560@qq.com"  #receiver's name could be customized
